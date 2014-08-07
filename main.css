@@ -1,0 +1,162 @@
+.main-content{
+	margin:0 auto;
+	width:780px;
+	font-family:Arial;
+}
+
+a{
+	color:black;
+}
+
+a:visited, a:hover{
+	color:#555;
+}
+
+#slider-range{
+	width: 135px;
+	display: block;
+	/* position: relative; */
+	/* left: 667px; */
+	/* top: 104px; */
+	margin: -35px 0 0 201px;
+}
+
+.main-phrase{
+	font-size:14px;
+}
+
+input, select{
+	font-size:14px;
+	width:160px;
+}
+
+.hidden-select{
+	display:none;
+}
+.select{
+	margin:0 0 0 9px;
+}
+
+.sub-select{
+	margin: 10px 0 0 383px;
+}
+.sub-sub-select{
+	margin: 10px 0 0 383px;
+}
+
+.tr{
+
+	border:1px solid black !important;
+}
+
+#circularG{
+	right:50%;
+	display:none;
+	position:absolute;
+}
+
+.canonl{
+	/*color:red;*/
+}
+
+.hidden img{
+	width:250px;
+}
+
+.hidden{
+	display:none;
+	position:absolute;
+	margin:-190px 0 0 500px;
+	border:2px solid #eeeeee;
+}
+
+.promotion{
+	color:red;
+}
+
+.price-before{
+	text-decoration:line-through;
+}
+
+.explanation{
+	float:left;
+	margin: -131px 0 0 370px;
+	width:370px;
+	text-align: left;
+}
+
+blockquote {
+	background: transparent;
+	border-left: none;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.results-table{
+	margin: 0 0 40px 0;
+	width:98%;
+}
+
+
+
+/* MOBILE */
+
+.main-content-mobile{
+	margin:0 auto;
+	width:100%;
+	font-size:16px;
+	text-align:center;
+}
+
+.main-content-mobile input, .main-content-mobile select{
+	font-size:16px;
+	width:90%;
+	margin:0 auto;
+}
+
+.main-content-mobile .main-phrase{
+	font-size: 16px;
+}
+
+.main-content-mobile #slider-range{
+	width: 80%;
+	display: block;
+	/* position: relative; */
+	/* left: 667px; */
+	/* top: 104px; */
+	margin: 30px auto;
+}
+
+.main-content-mobile .ui-slider-horizontal .ui-slider-handle {
+top: -.7em;
+margin-left: -1em;
+}
+.main-content-mobile .ui-slider .ui-slider-handle {
+position: absolute;
+z-index: 2;
+width: 2em;
+height: 2em;
+cursor: default;
+}
+
+.main-content-mobile td{
+	text-align:left;
+}
+
+.main-content-mobile .results-table{
+	margin: 10px 0 40px 0;
+	width:98%;
+}
+
+.main-content-mobile .explanation{
+	display:none;
+}
