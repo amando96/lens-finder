@@ -7,7 +7,7 @@ session_start();
 
 $app_id = 'APP_ID';
 $app_secret = 'APP_SECRET';
-$callback = 'CALLBACK'; // [DOMAIN]/auth/facebook.php in this example
+$callback = 'CALLBACK'; 
 
 $facebook = new Facebook($app_id, $app_secret, $callback);
 if($facebook->validateAccessToken()){
